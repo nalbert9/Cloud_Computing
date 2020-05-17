@@ -3,7 +3,7 @@ The cloud is perfect for hosting static websites that only include HTML, CSS, an
 
 ## Prerequisites:
 * [AWS Account](https://aws.amazon.com/)
-* [Static code](https://github.com/nalbert9/Cloud_Computing/tree/master/P1_Deploy_Website_AWS/Website)
+* [Sample static websites code](https://github.com/nalbert9/Cloud_Computing/tree/master/P1_Deploy_Website_AWS/Website)
 
 ## Topics Covered:
 * S3 bucket creation
