@@ -30,5 +30,5 @@ Performance Tracking and DevOps Tools:
 * Travis (CI/CD)
 
 Frameworks:
-* Ionic (Javascript) (Frontend)
-* Node.js (Javascript) (Backend)
+* [Ionic (Javascript) (Frontend)](https://ionicframework.com/)
+* [Node.js (Javascript) (Backend)](https://nodejs.org/en/)
