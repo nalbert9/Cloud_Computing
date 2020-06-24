@@ -3,9 +3,9 @@
 Udagram is a simple cloud application. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into three parts:
-1. __The Simple Frontend__, a basic Ionic client web application which consumes the RestAPI Backend.
-2. __The RestAPI Backend__, a Node-Express server which can be deployed to a cloud service.
-3. __The Image Filtering Microservice__, a Node-Express application which runs a simple script to process images.
+1. [The Frontend](https://github.com/nalbert9/Cloud_Computing/tree/master/P2_Udagram/Frontend), a basic Ionic client web application which consumes the RestAPI Backend. 
+2. [The RestAPI Backend](https://github.com/nalbert9/Cloud_Computing/tree/master/P2_Udagram/Backend), a Node-Express server which can be deployed to a cloud service.
+3. [The Image Filtering Microservice](https://github.com/nalbert9/Cloud_Computing/tree/master/P2_Udagram/Udagram_Image_Filtering), a Node-Express application which runs a simple script to process images.
 
 ## Tasks
 
