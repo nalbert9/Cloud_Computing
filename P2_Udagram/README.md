@@ -32,4 +32,4 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 * `eb deploy` to push changes.
 
 ### Deploying the system
- [Link] Udagram-env.eba-gvcx36ef.us-east-2.elasticbeanstalk.com
+ [Link](Udagram-env.eba-gvcx36ef.us-east-2.elasticbeanstalk.com)
