@@ -30,6 +30,5 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 * `eb init` a new application and `eb create` a new environment to deploy our image-filter service
 * `eb deploy` to push changes.
-
-### Elastic Beanstalk Deployment
- [Elastic Beanstalk Link](Udagram-env.eba-gvcx36ef.us-east-2.elasticbeanstalk.com)
+* [Elastic Beanstalk Link](Udagram-env.eba-gvcx36ef.us-east-2.elasticbeanstalk.com)
+ 
