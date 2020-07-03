@@ -39,10 +39,3 @@ ionic build
 ```
 ***
 
-## @TODO
-2. Tasks
-    i. Setup
-        a. Clone, set up protected branches (dev, staging, master)
-        b. NPM, Ionic CLI
-        c. run tests (npm test), identify broken function, fix the function
-        d. write tests for form validation and re-run tests
