@@ -1,18 +1,23 @@
-apiVersion: extensions/v1beta1
-kind: Deployment
+apiVersion: apps/v1
+kind: Deployment 
 metadata:
   labels:
     service: reverseproxy
+    version: v2
   name: reverseproxy
 spec:
   replicas: 2
+  selector:
+    matchLabels:
+        service:  reverseproxy
   template:
     metadata:
       labels:
         service: reverseproxy
+        version: v2
     spec:
       containers:
-      - image: scheele/reverseproxy
+      - image: gfoxx29/reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -25,5 +30,3 @@ spec:
         ports:
         - containerPort: 8080
       restartPolicy: Always
-
-
