@@ -19,8 +19,6 @@ before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin # set Docker username and password in Travis console
   - echo 'dockerhub credentials configured'
 
-
-
 install:
   - docker-compose -f P3_Microservices_Udagram/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
   - docker-compose -f P3_Microservices_Udagram/udacity-c3-deployment/docker/docker-compose-build.yaml push
