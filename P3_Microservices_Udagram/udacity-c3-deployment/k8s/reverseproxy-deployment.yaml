@@ -17,7 +17,7 @@ spec:
         version: v2
     spec:
       containers:
-      - image: gfoxx29/udagram-reverseproxy
+      - image: gfoxx29/reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
