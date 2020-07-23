@@ -15,7 +15,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: gfoxx29/udagram-restapi-user
+      - image: gfoxx29/udacity-restapi-user
         name: backend-user 
         imagePullPolicy: Always  
         resources:

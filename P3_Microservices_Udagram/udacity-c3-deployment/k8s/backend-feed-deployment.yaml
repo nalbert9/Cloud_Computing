@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: gfoxx29/udagram-restapi-feed
+      - image: gfoxx29/udacity-restapi-feed
         name: backend-feed
         imagePullPolicy: Always  
         resources:
