@@ -25,7 +25,7 @@ install:
 
 script:
   - kubectl get pods
-  - kubectl set image deployments/backend-feed backend-feed=gfoxx29/udagram-feed-v2:latest
-  - kubectl set image deployments/backend-user backend-user=gfoxx29/udagram-user-v2:latest
-  - kubectl set image deployments/frontend frontend=gfoxx29/udagram-frontend-v2:latest
+  - kubectl set image deployments/restapi-feed restapi-feed=gfoxx29/restapi-feed-v2:latest
+  - kubectl set image deployments/restapi-user restapi-user=gfoxx29/restapi-user-v2:latest
+  - kubectl set image deployments/frontend frontend=gfoxx29/restapi-frontend-v2:latest
   - kubectl set image deployments/reverseproxy reverseproxy=gfoxx29/reverseproxy-v2:latest
