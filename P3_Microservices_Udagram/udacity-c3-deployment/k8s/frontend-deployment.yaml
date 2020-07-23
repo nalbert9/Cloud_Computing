@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: gfoxx29/frontend:local
+      - image: gfoxx29/udagram-frontend:local
         name: frontend
         imagePullPolicy: Always          
         ports:
