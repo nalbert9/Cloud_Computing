@@ -3,7 +3,7 @@ kind: ConfigMap
 data:
   AWS_BUCKET: udagrambadjidev
   AWS_PROFILE: default
-  AWS_REGION: eu-west-3c
+  AWS_REGION: eu-west-3
   JWT_SECRET: hello
   POSTGRESS_DB: udagramdev
   POSTGRESS_HOST: udagramdev.cbq48fcfithb.eu-west-3.rds.amazonaws.com
