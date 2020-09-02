@@ -1,14 +1,14 @@
-# Serverless TODO
+# Serverless Application
 
-To implement this project you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all the `TODO:` comments in the code to find the placeholders that you need to implement.
+This project need to implement an application using AWS Lambda and Serverless framework.
 
 # Functionality of the application
 
-This appliation will allow to create/remove/update/get TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created. 
+This appliation will allow to create/remove/update/get items. Each item can optionally have an attachment image. Each user only has access to items that he/she has created. 
 
 # Functions to be implemented
 
-To implement this project you need to implement the following functions and configure them in the `serverless.yml` file:
+To implement this project we need to implement the following functions and configure them in the `serverless.yml` file:
 
 * `Auth` - this function should implement a custom authorizer for API Gateway that should be added to all other functions.
 * `GetTodos` - should return all TODOs for a current user. 
@@ -40,13 +40,9 @@ export const authConfig = {
 }
 ```
 
-# Best practices
-
-To complete this exercise please follow the best practices from the 6th lesson of this course.
-
 # Suggestions
 
-To store TODO items you might want to use a DynamoDB table with local secondary index(es). A create a local secondary index you need to a create a DynamoDB resource like this:
+To store items we might want to use a DynamoDB table with local secondary index(es). A create a local secondary index we need to a create a DynamoDB resource like this:
 
 ```yml
 
@@ -79,7 +75,7 @@ TodosTable:
 
 ```
 
-To query an index you need to use the `query()` method like:
+To query an index we need to use the `query()` method like:
 
 ```ts
 await this.dynamoDBClient
@@ -116,11 +112,11 @@ npm install
 npm run start
 ```
 
-This should start a development server with the React application that will interact with the serverless TODO application.
+This should start a development server with the React application that will interact with the serverless application.
 
 # Postman collection
 
-An alternative way to test your API you can use the Postman collection that contains sample requests. You can find a Postman collection in this project. To import this collection do the following.
+An alternative way to test our API we can use the Postman collection that contains sample requests. We can find a Postman collection in this project. To import this collection do the following.
 
 Click on the import button:
 
